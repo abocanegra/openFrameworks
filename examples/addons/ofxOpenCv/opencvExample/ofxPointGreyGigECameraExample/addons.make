@@ -1,0 +1,5 @@
+ofxOpenCv
+ofxCv
+ofxPointGreyGigECamera
+ofxGui
+ofxXmlSettings
