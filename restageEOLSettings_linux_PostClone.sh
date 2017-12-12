@@ -8,6 +8,7 @@ set +
 
 git config --global core.autocrlf input
 # Configure Git on Linux to properly handle line endings
+#git clone --recursive git@github.com:abocanegra/openFrameworks.git
 
 git add . -u
 git commit -m "Saving files before refreshing line endings"

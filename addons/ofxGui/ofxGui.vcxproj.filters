@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxLabel.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxInputField.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxGuiGroup.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxBaseGui.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxColorPicker.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxSliderGroup.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxButton.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxSlider.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxToggle.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxPanel.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxSlider.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxBaseGui.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxButton.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxPanel.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxColorPicker.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxToggle.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxSliderGroup.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxGui.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxInputField.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxLabel.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxGuiGroup.h">
+			<Filter>src</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\Android\ofxGPSImplAndroid.cpp">
+			<Filter>src\Android</Filter>
+		</ClCompile>
+		<ClCompile Include="src\iOS\ofxGPSImpliOS.mm">
+			<Filter>src\iOS</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\Android">
+			<UniqueIdentifier>{AC817CAB-ACC1-53DA-AC4F-CCF8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\common">
+			<UniqueIdentifier>{FE56CF09-06BA-2CDB-AEB6-C358}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\iOS">
+			<UniqueIdentifier>{40D6027B-C08D-C7C3-F3AA-EFB3}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\common\ofxGPS.h">
+			<Filter>src\common</Filter>
+		</ClInclude>
+		<ClInclude Include="src\iOS\ofxGPSImpliOS.h">
+			<Filter>src\iOS</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>

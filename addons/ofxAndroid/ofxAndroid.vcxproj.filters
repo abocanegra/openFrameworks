@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofAppAndroidWindow.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxAndroidUtils.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxAndroidVideoGrabber.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxAndroidVideoPlayer.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxAndroidLogChannel.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxAndroidVibrator.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxAndroidAccelerometer.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxAndroidSoundStream.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofxAndroidSoundPlayer.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxAndroidVideoGrabber.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxAndroidCircBuffer.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofAppAndroidWindow.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxAndroidApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxAndroidVideoPlayer.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxAndroidSoundPlayer.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxAndroidVibrator.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxAndroidUtils.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxAndroidLogChannel.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxAndroid.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxAndroidSoundStream.h">
+			<Filter>src</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>

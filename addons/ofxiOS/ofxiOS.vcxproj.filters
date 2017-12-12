@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\sound\SoundInputStream.m">
+			<Filter>src\sound</Filter>
+		</ClCompile>
+		<ClCompile Include="src\sound\ofxOpenALSoundPlayer.cpp">
+			<Filter>src\sound</Filter>
+		</ClCompile>
+		<ClCompile Include="src\sound\ofxiOSSoundStreamDelegate.mm">
+			<Filter>src\sound</Filter>
+		</ClCompile>
+		<ClCompile Include="src\sound\SoundEngine.cpp">
+			<Filter>src\sound</Filter>
+		</ClCompile>
+		<ClCompile Include="src\sound\ofxiOSSoundStream.mm">
+			<Filter>src\sound</Filter>
+		</ClCompile>
+		<ClCompile Include="src\sound\AVSoundPlayer.m">
+			<Filter>src\sound</Filter>
+		</ClCompile>
+		<ClCompile Include="src\sound\SoundStream.m">
+			<Filter>src\sound</Filter>
+		</ClCompile>
+		<ClCompile Include="src\sound\ofxiOSSoundPlayer.mm">
+			<Filter>src\sound</Filter>
+		</ClCompile>
+		<ClCompile Include="src\sound\SoundOutputStream.m">
+			<Filter>src\sound</Filter>
+		</ClCompile>
+		<ClCompile Include="src\app\ofAppiOSWindow.mm">
+			<Filter>src\app</Filter>
+		</ClCompile>
+		<ClCompile Include="src\video\ofxiOSVideoGrabber.mm">
+			<Filter>src\video</Filter>
+		</ClCompile>
+		<ClCompile Include="src\video\AVFoundationVideoPlayer.m">
+			<Filter>src\video</Filter>
+		</ClCompile>
+		<ClCompile Include="src\video\AVFoundationVideoGrabber.mm">
+			<Filter>src\video</Filter>
+		</ClCompile>
+		<ClCompile Include="src\video\ofxiOSVideoPlayer.mm">
+			<Filter>src\video</Filter>
+		</ClCompile>
+		<ClCompile Include="src\tvOS\ofxtvOSViewController.mm">
+			<Filter>src\tvOS</Filter>
+		</ClCompile>
+		<ClCompile Include="src\tvOS\ofxtvOSAppDelegate.mm">
+			<Filter>src\tvOS</Filter>
+		</ClCompile>
+		<ClCompile Include="src\gl\ES1Renderer.m">
+			<Filter>src\gl</Filter>
+		</ClCompile>
+		<ClCompile Include="src\gl\EAGLView.m">
+			<Filter>src\gl</Filter>
+		</ClCompile>
+		<ClCompile Include="src\gl\ES2Renderer.m">
+			<Filter>src\gl</Filter>
+		</ClCompile>
+		<ClCompile Include="src\utils\ofxiOSExtras.mm">
+			<Filter>src\utils</Filter>
+		</ClCompile>
+		<ClCompile Include="src\utils\ofxiOSMapKit.mm">
+			<Filter>src\utils</Filter>
+		</ClCompile>
+		<ClCompile Include="src\utils\ofxiOSCoreMotion.mm">
+			<Filter>src\utils</Filter>
+		</ClCompile>
+		<ClCompile Include="src\utils\ofxiOSImagePicker.mm">
+			<Filter>src\utils</Filter>
+		</ClCompile>
+		<ClCompile Include="src\utils\ofxiOSKeyboard.mm">
+			<Filter>src\utils</Filter>
+		</ClCompile>
+		<ClCompile Include="src\utils\ofxiOSMapKitDelegate.mm">
+			<Filter>src\utils</Filter>
+		</ClCompile>
+		<ClCompile Include="src\utils\ofxiOSEventAdapter.mm">
+			<Filter>src\utils</Filter>
+		</ClCompile>
+		<ClCompile Include="src\utils\ofxiOSCoreLocation.mm">
+			<Filter>src\utils</Filter>
+		</ClCompile>
+		<ClCompile Include="src\utils\ofxiOSExternalDisplay.mm">
+			<Filter>src\utils</Filter>
+		</ClCompile>
+		<ClCompile Include="src\events\ofxiOSAlerts.mm">
+			<Filter>src\events</Filter>
+		</ClCompile>
+		<ClCompile Include="src\events\ofxiOSAccelerometer.mm">
+			<Filter>src\events</Filter>
+		</ClCompile>
+		<ClCompile Include="src\core\ofxiOSViewController.mm">
+			<Filter>src\core</Filter>
+		</ClCompile>
+		<ClCompile Include="src\core\ofxiOSEAGLView.mm">
+			<Filter>src\core</Filter>
+		</ClCompile>
+		<ClCompile Include="src\core\ofxiOSAppDelegate.mm">
+			<Filter>src\core</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\sound">
+			<UniqueIdentifier>{378BA001-82AE-44EE-9B4F-13F0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\app">
+			<UniqueIdentifier>{36C35CEB-4364-E596-036B-2541}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\video">
+			<UniqueIdentifier>{1D2AE112-694D-E47E-DC31-CFDA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\tvOS">
+			<UniqueIdentifier>{A260F038-D808-4AF6-2B9A-A08B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\gl">
+			<UniqueIdentifier>{9894201B-1595-4EC5-1511-10EB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\utils">
+			<UniqueIdentifier>{FF53B027-68B2-4010-4AB2-068A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\events">
+			<UniqueIdentifier>{EBE6A2EB-9691-EC5C-33A0-5189}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\core">
+			<UniqueIdentifier>{72E7CB0E-268E-7C0B-3B2D-2E9D}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxiOSConstants.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxiOS.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\sound\ofxiOSSoundStream.h">
+			<Filter>src\sound</Filter>
+		</ClInclude>
+		<ClInclude Include="src\sound\ofxOpenALSoundPlayer.h">
+			<Filter>src\sound</Filter>
+		</ClInclude>
+		<ClInclude Include="src\sound\SoundEngine.h">
+			<Filter>src\sound</Filter>
+		</ClInclude>
+		<ClInclude Include="src\sound\AVSoundPlayer.h">
+			<Filter>src\sound</Filter>
+		</ClInclude>
+		<ClInclude Include="src\sound\SoundOutputStream.h">
+			<Filter>src\sound</Filter>
+		</ClInclude>
+		<ClInclude Include="src\sound\ofxiOSSoundStreamDelegate.h">
+			<Filter>src\sound</Filter>
+		</ClInclude>
+		<ClInclude Include="src\sound\SoundStream.h">
+			<Filter>src\sound</Filter>
+		</ClInclude>
+		<ClInclude Include="src\sound\SoundInputStream.h">
+			<Filter>src\sound</Filter>
+		</ClInclude>
+		<ClInclude Include="src\sound\ofxiOSSoundPlayer.h">
+			<Filter>src\sound</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxiPhone.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxiOSExtensions.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\app\ofAppiOSWindow.h">
+			<Filter>src\app</Filter>
+		</ClInclude>
+		<ClInclude Include="src\app\ofxiOSApp.h">
+			<Filter>src\app</Filter>
+		</ClInclude>
+		<ClInclude Include="src\video\ofxiOSVideoGrabber.h">
+			<Filter>src\video</Filter>
+		</ClInclude>
+		<ClInclude Include="src\video\AVFoundationVideoPlayer.h">
+			<Filter>src\video</Filter>
+		</ClInclude>
+		<ClInclude Include="src\video\ofxiOSVideoPlayer.h">
+			<Filter>src\video</Filter>
+		</ClInclude>
+		<ClInclude Include="src\video\AVFoundationVideoGrabber.h">
+			<Filter>src\video</Filter>
+		</ClInclude>
+		<ClInclude Include="src\tvOS\ofxtvOSAppDelegate.h">
+			<Filter>src\tvOS</Filter>
+		</ClInclude>
+		<ClInclude Include="src\tvOS\ofxtvOSViewController.h">
+			<Filter>src\tvOS</Filter>
+		</ClInclude>
+		<ClInclude Include="src\gl\ESRenderer.h">
+			<Filter>src\gl</Filter>
+		</ClInclude>
+		<ClInclude Include="src\gl\ES1Renderer.h">
+			<Filter>src\gl</Filter>
+		</ClInclude>
+		<ClInclude Include="src\gl\ES2Renderer.h">
+			<Filter>src\gl</Filter>
+		</ClInclude>
+		<ClInclude Include="src\gl\EAGLView.h">
+			<Filter>src\gl</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofxtvOS.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\utils\ofxiOSImagePicker.h">
+			<Filter>src\utils</Filter>
+		</ClInclude>
+		<ClInclude Include="src\utils\ofxiPhoneExtras.h">
+			<Filter>src\utils</Filter>
+		</ClInclude>
+		<ClInclude Include="src\utils\ofxiOSEventAdapter.h">
+			<Filter>src\utils</Filter>
+		</ClInclude>
+		<ClInclude Include="src\utils\ofxiOSExtras.h">
+			<Filter>src\utils</Filter>
+		</ClInclude>
+		<ClInclude Include="src\utils\ofxiOSMapKit.h">
+			<Filter>src\utils</Filter>
+		</ClInclude>
+		<ClInclude Include="src\utils\ofxiOSMapKitDelegate.h">
+			<Filter>src\utils</Filter>
+		</ClInclude>
+		<ClInclude Include="src\utils\ofxiOSMapKitListener.h">
+			<Filter>src\utils</Filter>
+		</ClInclude>
+		<ClInclude Include="src\utils\ofxiOSCoreLocation.h">
+			<Filter>src\utils</Filter>
+		</ClInclude>
+		<ClInclude Include="src\utils\ofxiOSCoreMotion.h">
+			<Filter>src\utils</Filter>
+		</ClInclude>
+		<ClInclude Include="src\utils\ofxiOSExternalDisplay.h">
+			<Filter>src\utils</Filter>
+		</ClInclude>
+		<ClInclude Include="src\utils\ofxiOSKeyboard.h">
+			<Filter>src\utils</Filter>
+		</ClInclude>
+		<ClInclude Include="src\events\ofxiOSAlertsListener.h">
+			<Filter>src\events</Filter>
+		</ClInclude>
+		<ClInclude Include="src\events\ofxiOSAlerts.h">
+			<Filter>src\events</Filter>
+		</ClInclude>
+		<ClInclude Include="src\core\ofxiOSAppDelegate.h">
+			<Filter>src\core</Filter>
+		</ClInclude>
+		<ClInclude Include="src\core\ofxiOSEAGLView.h">
+			<Filter>src\core</Filter>
+		</ClInclude>
+		<ClInclude Include="src\core\ofxiOSViewController.h">
+			<Filter>src\core</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
