@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="ptGreyExample2">
+		<Project filename="ptGreyExample2.cbp">
+			<Depends filename="../../../../libs/openFrameworksCompiled/project/linux64/libopenFrameworks.cbp" />
+		</Project>
+		<Project filename="../../../../libs/openFrameworksCompiled/project/linux64/libopenFrameworks.cbp" />
+		<Project filename="../ptgreyExample/ptgreyExample.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

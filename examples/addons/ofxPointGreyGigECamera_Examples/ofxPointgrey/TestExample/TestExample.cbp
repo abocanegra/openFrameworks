@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TestExample" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="addons/;src/;build config/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/$(PROJECT_NAME)_debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Debug/" />
+				<Option external_deps="../../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworksDebug.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+			<Target title="Release">
+				<Option output="bin/$(PROJECT_NAME)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Release/" />
+				<Option external_deps="../../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworks.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+		</Build>
+		<Unit filename="config.make">
+			<Option virtualFolder="build config" />
+		</Unit>
+		<Unit filename="src/main.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+		<Unit filename="../../../../addons/ofxPointGrey/src/ofxPointGreyFlyCapture.h">
+			<Option virtualFolder="addons/ofxPointGrey/src" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/src/ofxPointGrey.h">
+			<Option virtualFolder="addons/ofxPointGrey/src" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/src/ofxPointGreyFlyCapture.cpp">
+			<Option virtualFolder="addons/ofxPointGrey/src" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture/Utilities.h">
+			<Option virtualFolder="addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture/FlyCapture2GUI.h">
+			<Option virtualFolder="addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture/BusManager.cpp">
+			<Option virtualFolder="addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture/CameraBase.h">
+			<Option virtualFolder="addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture/FlyCapture2Defs.h">
+			<Option virtualFolder="addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture/Error.cpp">
+			<Option virtualFolder="addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture/Camera.h">
+			<Option virtualFolder="addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture/TopologyNode.h">
+			<Option virtualFolder="addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture/Error.h">
+			<Option virtualFolder="addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture/Image.cpp">
+			<Option virtualFolder="addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture/AVIRecorder.h">
+			<Option virtualFolder="addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture/ImageStatistics.h">
+			<Option virtualFolder="addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture/FlyCapture2.h">
+			<Option virtualFolder="addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture/GigECamera.h">
+			<Option virtualFolder="addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture/FlyCapture2Platform.h">
+			<Option virtualFolder="addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture/BusManager.h">
+			<Option virtualFolder="addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture/Image.h">
+			<Option virtualFolder="addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture/Camera.cpp">
+			<Option virtualFolder="addons/ofxPointGrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

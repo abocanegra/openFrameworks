@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ptGreyExample" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="addons/;src/;build config/;addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394/;addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture/;addons/ofxVideoGrabberPtgrey/src/;addons/ofxVideoGrabberPtgrey/libs/dc1394/include/lib/linux/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/$(PROJECT_NAME)_debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Debug/" />
+				<Option external_deps="../../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworksDebug.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+			<Target title="Release">
+				<Option output="bin/$(PROJECT_NAME)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Release/" />
+				<Option external_deps="../../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworks.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+		</Build>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture/AVIRecorder.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture/BusManager.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture/Camera.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture/CameraBase.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture/Error.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture/FlyCapture2.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture/FlyCapture2Defs.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture/FlyCapture2GUI.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture/FlyCapture2Platform.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture/GigECamera.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture/Image.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture/ImageStatistics.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture/TopologyNode.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture/Utilities.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/FlyCapture/include/FlyCapture" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394/camera.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394/capture.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394/control.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394/conversions.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394/dc1394.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394/format7.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394/internal.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394/iso.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394/log.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394/offsets.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394/platform.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394/register.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394/types.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394/utils.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394/video.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/dc1394/include/dc1394" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/libs/dc1394/lib/linux/libdc1394.a">
+			<Option compile="1" />
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/libs/dc1394/include/lib/linux/" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/src/ofxVideoGrabberDc1394.cpp">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/src" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/src/ofxVideoGrabberDc1394.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/src" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/src/ofxVideoGrabberFlyCapture.cpp">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/src" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/src/ofxVideoGrabberFlyCapture.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/src" />
+		</Unit>
+		<Unit filename="../../../../addons/ofxVideoGrabberPtgrey/src/ofxVideoGrabberPtgrey.h">
+			<Option virtualFolder="addons/ofxVideoGrabberPtgrey/src" />
+		</Unit>
+		<Unit filename="config.make">
+			<Option virtualFolder="build config" />
+		</Unit>
+		<Unit filename="src/main.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
