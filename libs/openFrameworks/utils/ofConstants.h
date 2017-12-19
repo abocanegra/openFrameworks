@@ -3,9 +3,15 @@
 
 //-------------------------------
 #define OF_VERSION_MAJOR 0
+<<<<<<< HEAD
 #define OF_VERSION_MINOR 10
 #define OF_VERSION_PATCH 0
 #define OF_VERSION_PRE_RELEASE "master"
+=======
+#define OF_VERSION_MINOR 9
+#define OF_VERSION_PATCH 8
+#define OF_VERSION_PRE_RELEASE "stable"
+>>>>>>> origin/stable
 
 //-------------------------------
 
