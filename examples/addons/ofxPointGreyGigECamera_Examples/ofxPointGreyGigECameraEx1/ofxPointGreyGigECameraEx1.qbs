@@ -12,9 +12,11 @@ Project{
         name: { return FileInfo.baseName(path) }
 
         files: [
+            'src/calibration.h',
             'src/main.cpp',
             'src/ofApp.cpp',
             'src/ofApp.h',
+            'src/threadPointGreyGigECamera.h',
         ]
 
         of.addons: [

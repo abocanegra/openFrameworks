@@ -12,9 +12,15 @@ Project{
         name: { return FileInfo.baseName(path) }
 
         files: [
+            'src/CalibrationExtended.cpp',
+            'src/CalibrationExtended.h',
+            'src/calibration.h',
             'src/main.cpp',
             'src/ofApp.cpp',
             'src/ofApp.h',
+            'src/ofxNTSBlobTrack.cpp',
+            'src/ofxNTSBlobTrack.h',
+            'src/threadPointGreyGigECamera.h',
         ]
 
         of.addons: [
