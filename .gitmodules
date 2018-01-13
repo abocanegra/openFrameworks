@@ -4,3 +4,21 @@
 [submodule "apps/projectGenerator"]
 	path = apps/projectGenerator
 	url = git@github.com:openframeworks
+[submodule "ofxPixelsExtended"]
+	path = addons/ofxPixelsExtended
+	url = git@github.com:abocanegra
+[submodule "ofxThreadedSlideshow"]
+	path = addons/ofxThreadedSlideshow
+	url = git@github.com:abocanegra
+[submodule "ofxBlur"]
+	path = addons/ofxBlur
+	url = git@github.com:abocanegra
+[submodule "ofxCsv"]
+	path = addons/ofxCsv
+	url = git@github.com:abocanegra
+[submodule "ofxPointGreyGigECamera"]
+	path = addons/ofxPointGreyGigECamera
+	url = git@github.com:abocanegra
+[submodule "ofxTween"]
+	path = addons/ofxTween
+	url = git@github.com:abocanegra
