@@ -6,9 +6,12 @@
 int main( ){
 	ofAppEGLWindow::Settings settings;
 
-	settings.eglWindowOpacity = 127;
-	settings.frameBufferAttributes[EGL_DEPTH_SIZE]   = 0; // 0 bits for depth
-	settings.frameBufferAttributes[EGL_STENCIL_SIZE] = 0; // 0 bits for stencil
+	ofSetCurrentRenderer(ofGLProgrammableRenderer::TYPE);
+//	settings.eglWindowOpacity = 127;
+//	settings.frameBufferAttributes[GL_DEPTH_BIAS]   = 24; // 0 bits for depth
+//	settings.frameBufferAttributes[GL_STENCIL_BITS] = 8; // 0 bits for stencil
+//	settings.frameBufferAttributes[EGL_DEPTH_SIZE]   = 24; // 0 bits for depth
+//	settings.frameBufferAttributes[EGL_STENCIL_SIZE] = 8; // 0 bits for stencil
 
 	settings.width = 1024;
 	settings.height = 768;
