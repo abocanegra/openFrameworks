@@ -5,6 +5,8 @@ export LC_ALL=C
 ARCH=$(uname -m)
 if [ "$ARCH" = "x86_64" ]; then
         LIBSPATH=linux64
+	sudo ln -s /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0 \
+	/lib/x86_64-linux-gnu/libGLX_mesa.so
 else
         LIBSPATH=linux
 fi

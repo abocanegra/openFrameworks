@@ -1,0 +1,10 @@
+{
+	"advancedMode": true,
+	"defaultOfPath": "/home/abocanegra_lts/Programming/NTS_openFrameworks/openFrameworks",
+	"defaultPlatform": "linux64",
+	"defaultRelativeProjectPath": "apps/myApps",
+	"showConsole": false,
+	"showDeveloperTools": false,
+	"useDictionaryNameGenerator": true,
+	"verboseOutput": true
+}
